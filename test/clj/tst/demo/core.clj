@@ -51,8 +51,7 @@
 
   (is= (encipher-char 0 \A) \A)
   (is= (encipher-char 1 \A) \B)
-  (is= (encipher-char -1 \A) \Z)
-  )
+  (is= (encipher-char -1 \A) \Z))
 
 (dotest
   (is= (encipher 1 "Hello") "Ifmmp")
